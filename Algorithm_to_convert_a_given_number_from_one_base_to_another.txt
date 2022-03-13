@@ -1,0 +1,21 @@
+An algorithm to convert a given number from one base to another
+-------------------------------
+1.0 Start
+2.0 Declare variables n, num, sub, var, new_num old_base and new_base
+3.0 Read num, old_base and new_base from user
+5.0 If old_base is equal to 10
+	5.1 Repeat Steps(5.1 - 5.2) until num = 0
+		5.11 sub = num modulus new_base
+		5.12 Assign var = num / new_base as an integer type
+		5.13 Get sub as the rightmost digit of new_num on the same line
+		5.14 num = var
+	5.2 Print new_num
+6.0 If old_base is not equal to 10
+	6.1 Assign n to be the number of digits in num
+	6.2 Working left to right of num: 
+		 new_num = [a^(n) + b^(n-1) + c^(n-2)]
+	6.3 Then do steps 5.1 to 5.2
+7.0 Stop
+
+
+Note: Exponent symbol (^)
