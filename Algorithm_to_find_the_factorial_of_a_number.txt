@@ -1,0 +1,11 @@
+An algorithm to find the factorial of a number
+-------------------------------
+1.0 Start
+2.0 Declare varibles num, fac and i as integers
+3.0 Assign i = 1
+4.0 Read num from user
+5.0 Repeat steps (5.1-5.3) until i ≤ fac
+	5.1 fac = fac * i
+	5.2 Print fac
+	5.3 i = i + 1
+6.0 Stop
