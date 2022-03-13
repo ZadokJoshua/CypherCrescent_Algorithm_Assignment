@@ -1,0 +1,8 @@
+An algorithm to add two numbers
+-------------------------------
+1.0 Start
+2.0 Declare varibles num1, num2 and Sum as integers
+3.0 Read num1 and num2 from user
+4.0 Sum = num1 + num2
+5.0 Print Sum
+6.0 Stop
