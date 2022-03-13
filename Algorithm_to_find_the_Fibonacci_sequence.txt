@@ -1,0 +1,17 @@
+An algorithm to find the Fibonacci sequence
+-------------------------------
+1.0 Start
+2.0 Declare varibles num1, num2, sub, count, no_of_terms and  i as integers
+3.0 Assign count = 0, 
+	   i = 0,
+	   num1 = 0,
+	   num2 = 1,
+4.0 Read no_of_terms from user
+5.0 Print num1 and num2
+6.0 Repeat steps (6.1-6.5)  
+	6.1 sub = num1 + num2
+	6.2 num1 = num2
+	6.3 num2 = sub
+	6.4 Print num2
+	6.5 count = count + 1
+7.0 Stop
