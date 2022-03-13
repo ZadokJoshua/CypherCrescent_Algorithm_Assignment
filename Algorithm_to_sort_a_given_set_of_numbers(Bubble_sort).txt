@@ -1,0 +1,14 @@
+An algorithm to sort a given set of numbers (Bubble sort)
+-------------------------------
+1.0 Start
+2.0 Declare variable sub
+3.0 Declare array of s (integer) elements and assign it Arr
+4.0 Read each element from the user and assign the values 
+    to n[0], n[1], n[2],...,n[s-1]
+5.0 Repeat steps (4.1-4.4) until Arr[0] < Arr[1] < Arr[2] < ... < Arr[s-1]
+	5.1 if Arr[0] > Arr[1]
+		5.2 sub = Arr[0]
+		5.3 Arr[0] = Arr[1]
+		5.4 Arr[1] = sub
+6.0 Print Arr
+7.0 Stop
